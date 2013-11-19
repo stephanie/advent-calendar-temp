@@ -1,0 +1,66 @@
+.box {
+  background-image: url('../images/meat.png');
+  background-size: cover;
+  height: 102px;
+  width: 102px;
+  position: relative;
+  z-index: 1;
+}
+.col-centered {
+  margin: 0 auto;
+  float: none;
+}
+.row {
+  margin-bottom: 10px;
+}
+.box-2 {
+  background-color: rgb(0,175,193);
+  height: 102px;
+  width: 102px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 50px;
+}
+#page-content {
+  margin-right: 112px;
+}
+#advent_title {
+/*  border: 1px solid black;
+*/  text-align: center;
+}
+.star {
+  background-image: url('../images/star.png');
+  background-size: cover;
+  height: 102px;
+  width: 102px;
+}
+body {
+  background-color: rgb(183,244,242);
+}
+#first-line {
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+#second-line {
+  font-family: 'Lobster Two', italic, cursive;
+  font-size: 53px;
+  line-height: 20px;
+  font-weight: 300;
+  margin-left: -3px;
+  color: rgb(181,53,36);
+  text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.15);
+}
+#third-line {
+  font-family: 'Roboto Slab', serif;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 47px;
+
+}
