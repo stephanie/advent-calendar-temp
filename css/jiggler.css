@@ -17,13 +17,6 @@
   -ms-animation: spin 2s;
   animation: spin 2s;
 }
-.grow {
-  z-index: 30;
-  -webkit-animation: grow 2s;
-  -moz-animation: grow 2s;
-  -ms-animation: grow 2s;
-  animation: grow 2s;
-}
 .hooray {
   z-index: 20;
   -webkit-animation: hooray 2s;
@@ -57,16 +50,6 @@
   8% {-webkit-transform: rotate(-50deg)}
   12% {-webkit-transform: rotate(-50deg) }
   100% {-webkit-transform: rotate(3600deg)}
-}
-
-@-webkit-keyframes grow {
-  0% { -webkit-transform: scale(1); }
-  75% { -webkit-transform: scale(2.5); }
-  90% { -webkit-transform: scale(0.6); }
-  93% { -webkit-transform: scale(1.4); }
-  95% { -webkit-transform: scale(0.8); }
-  97% { -webkit-transform: scale(1.2); }
-  100% { -webkit-transform: scale(1); }
 }
 
 @-webkit-keyframes hooray {
@@ -110,16 +93,6 @@
   100% {-moz-transform: rotate(3600deg)}
 }
 
-@-moz-keyframes grow {
-  0% { -moz-transform: scale(1); }
-  75% { -moz-transform: scale(2.5); }
-  90% { -moz-transform: scale(0.6); }
-  93% { -moz-transform: scale(1.4); }
-  95% { -moz-transform: scale(0.8); }
-  97% { -moz-transform: scale(1.2); }
-  100% { -moz-transform: scale(1); }
-}
-
 @-moz-keyframes hooray {
   0% {-moz-transform: translateX(0) translateY(0) scale(1, 1);}
   10% {-moz-transform: translateX(60px) translateY(-60px) scale(1.5, 1.5);}
@@ -159,16 +132,6 @@
   8% {-o-transform: rotate(-50deg)}
   12% {-o-transform: rotate(-50deg) }
   100% {-o-transform: rotate(3600deg)}
-}
-
-@-o-keyframes grow {
-  0% { -o-transform: scale(1); }
-  75% { -o-transform: scale(2.5); }
-  90% { -o-transform: scale(0.6); }
-  93% { -o-transform: scale(1.4); }
-  95% { -o-transform: scale(0.8); }
-  97% { -o-transform: scale(1.2); }
-  100% { -o-transform: scale(1); }
 }
 
 @-o-keyframes hooray {
@@ -211,16 +174,6 @@
   100% {-ms-transform: rotate(3600deg)}
 }
 
-@-ms-keyframes grow {
-  0% { -ms-transform: scale(1); }
-  75% { -ms-transform: scale(2.5); }
-  90% { -ms-transform: scale(0.6); }
-  93% { -ms-transform: scale(1.4); }
-  95% { -ms-transform: scale(0.8); }
-  97% { -ms-transform: scale(1.2); }
-  100% { -ms-transform: scale(1); }
-}
-
 @-ms-keyframes hooray {
   0% {-ms-transform: translateX(0) translateY(0) scale(1, 1);}
   10% {-ms-transform: translateX(60px) translateY(-60px) scale(1.5, 1.5);}
@@ -260,16 +213,6 @@
   8% {transform: rotate(-50deg)}
   12% {transform: rotate(-50deg) }
   100% {transform: rotate(3600deg)}
-}
-
-@keyframes grow {
-    0% { transform: scale(1); }
-  75% { transform: scale(2.5); }
-  90% { transform: scale(0.6); }
-  93% { transform: scale(1.4); }
-  95% { transform: scale(0.8); }
-  97% { transform: scale(1.2); }
-  100% { transform: scale(1); }
 }
 
 @keyframes hooray {
