@@ -1,10 +1,99 @@
-#meat {
-  background-image: url('../images/meat.png');
+.box {
   background-size: cover;
   height: 102px;
   width: 102px;
   position: relative;
   z-index: 1;
+}
+#meat1 {
+  background-image: url('../images/meat-1.png');
+}
+#meat2 {
+  background-image: url('../images/meat-2.png');
+}
+#meat3 {
+  background-image: url('../images/meat-3.png');
+}
+#meat4 {
+  background-image: url('../images/meat-4.png');
+}
+#meat5 {
+  background-image: url('../images/meat-5.png');
+}
+#meat6 {
+  background-image: url('../images/meat-6.png');
+}
+#meat7 {
+  background-image: url('../images/meat-7.png');
+}
+#meat8 {
+  background-image: url('../images/meat-8.png');
+}
+#meat9 {
+  background-image: url('../images/meat-9.png');
+}
+#meat10 {
+  background-image: url('../images/meat-10.png');
+}
+#meat11 {
+  background-image: url('../images/meat-11.png');
+}
+#meat12 {
+  background-image: url('../images/meat-12.png');
+}
+#meat13 {
+  background-image: url('../images/meat-13.png');
+}
+#meat14 {
+  background-image: url('../images/meat-14.png');
+}
+#meat15 {
+  background-image: url('../images/meat-15.png');
+}
+#meat16 {
+  background-image: url('../images/meat-16.png');
+}
+#meat17 {
+  background-image: url('../images/meat-17.png');
+}
+#meat18 {
+  background-image: url('../images/meat-18.png');
+}
+#meat19 {
+  background-image: url('../images/meat-19.png');
+}
+#meat20 {
+  background-image: url('../images/meat-20.png');
+}
+#meat21 {
+  background-image: url('../images/meat-21.png');
+}
+#meat22 {
+  background-image: url('../images/meat-22.png');
+}
+#meat23 {
+  background-image: url('../images/meat-23.png');
+}
+#meat24 {
+  background-image: url('../images/meat-24.png');
+}
+#meat25 {
+  background-image: url('../images/meat-25.png');
+}
+#meat26 {
+  background-image: url('../images/meat-26.png');
+}
+#meat27 {
+  background-image: url('../images/meat-27.png');
+}
+#meat28 {
+  background-image: url('../images/meat-28.png');
+}
+#meat29 {
+  background-image: url('../images/meat-29.png');
+}
+#meat30 {
+  background-image: url('../images/meat-30.png');
 }
 .col-centered {
   margin: 0 auto;
